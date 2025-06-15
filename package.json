@@ -1,0 +1,31 @@
+{
+  "name": "clodwords",
+  "version": "0.1.0",
+  "description": "Enhanced Firefox dictionary builder",
+  "author": "Robert de Forest",
+  "license": "MIT",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "postinstall": "echo 'Run: node_modules/coffeescript/bin/cake init'"
+  },
+  "dependencies": {
+    "coffeescript": "^2.7.0",
+    "js-yaml": "^4.1.0",
+    "node-fetch": "^3.3.2",
+    "adm-zip": "^0.5.10",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rdeforest/ClodWords.git"
+  },
+  "keywords": [
+    "firefox",
+    "dictionary",
+    "spellcheck",
+    "wordlist"
+  ]
+}
